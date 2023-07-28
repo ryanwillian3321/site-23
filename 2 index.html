@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo da Cobrinha</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Jogo da Cobrinha</h1>
+    <p>Este é um site simples com um botão para jogar o jogo da cobrinha!</p>
+    <button onclick="window.location.href='jogo.html'">Jogar Jogo da Cobrinha</button>
+  </header>
+
+  <main>
+    <h1>Jogo da Cobrinha</h1>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <script>
+      const canvas = document.getElementById("gameCanvas");
+      const ctx = canvas.getContext("2d");
+
+      // Restante do código do jogo da cobrinha aqui (incluindo a parte com paredes e controles para celular)
+      // ...
+    </script>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+  </footer>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</body>
+</html>
